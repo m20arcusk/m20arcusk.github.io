@@ -1,0 +1,191 @@
+body{
+  padding-top: 0;
+  background-color: #243763;
+}
+
+.collapse {
+  text-align: end;
+  justify-content: end;
+  align-items: end;
+}
+
+.navbar > * {
+  background-color: #0A2647;
+}
+
+.navbar {
+  background-color: #0A2647;
+  opacity: 0.80;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+#Layer_1{
+  width: 3%;
+  height: 3%;
+  margin-left: 5px;
+}
+
+#Instagram{
+  width: 50%;
+  height: 50%;
+}
+
+.desc {
+  display: flex;
+}
+
+.icons {
+  margin: 2% 5%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.profile-2 {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.navbar-brand {
+  background-color: #0A2647;
+  color: white;
+}
+
+.nav-item{
+  color: white;
+}
+
+.nav-link.active, .nav-link {
+  color: white !important;
+}
+
+.prof-pics {
+  border-radius: 50% !important;
+}
+
+.navbar-toggler {
+  color: white;
+  border: black;
+  background-color: white;
+}
+
+.lead {
+  color: #BAD7E9; 
+}
+
+.top{
+  padding-top: 15%;
+}
+
+.connect {
+  color: #98DFD6;
+  border-color: #98DFD6;
+}
+
+.connect:hover {
+  background-color: #98DFD6;
+  color: #243763;
+}
+
+.about-title{
+  color: #98DFD6
+}
+
+.container {
+  margin-left: 125px;
+}
+
+.feature > * {
+  color: #FCFFE7;
+}
+
+.soft-eng{
+  color: #FCFFE7;
+}
+
+.icon-link{
+  color: #BAD7E9;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #98DFD6;
+  color: #060047
+}
+
+.card {
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bd-placeholder-img, .card-body{
+  width: 100% !important;
+}
+
+.contact {
+  color: #98DFD6;
+}
+
+.contact-text{
+  color: #FCFFE7;
+}
+.contact-texts{
+  color: #FCFFE7;
+  text-align: start;
+  padding-top: 50px;
+}
+
+.mail {
+  text-decoration-color: #FCFFE7 !important;
+}
+
+.top-link{
+  text-decoration-color: #BDCDD6 !important;
+  font-size: 12pt !important;
+}
+
+/* Typewriter CSS */
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+.typewriter { 
+	border-right: .1em solid white;
+  color: #98DFD6 !important;
+	width: 9.5em; 
+	width: 12ch;
+  height: 50px;
+	margin: 2em 0;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 2s steps(16, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+/* Gradient Background CSS */
+.gradient-background {
+  background: linear-gradient(335deg, #060047, #243763, #18122B);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+  
