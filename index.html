@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,13 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Google Fonts Link -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-    
-    <link rel="shortcut icon" type="image/gif" href="./rocketship-gif.gif"/>
+
+    <link rel="shortcut icon" type="image/gif" href="./rocketship-gif.gif" />
 </head>
 
 <body class="gradient-background">
@@ -53,7 +54,7 @@
     </section>
     <!-- Profile Landing -->
     <section id="profile-landing">
-        <div class="container col-xxl-8 py-5">
+        <div class="container container-profile  col-xxl-8 py-5">
             <div class="row g-5 top">
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img src="./profilep.jpg" class="prof-pics d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
@@ -85,11 +86,15 @@
             <h2 class="about-title  border-bottom pt-5"> 01 About Me </h2>
             <div class="text-secondary px-4 pt-3 text-center">
                 <div class="py-5">
-                    <div class="col-lg-9 mx-auto desc mx-5">
+                    <div class="col-lg-9 mx-auto desc mx-5 about-second">
                         <img class="profile-2 mx-5" src="./Profile-2.png">
-                        <p class="fs-5 mb-2 contact-texts"> I am a second-year Business and Computer Science Major at the
-                            University of British Columbia with a driving determination, and an eager passion for learning and curiosity. 
-                            As someone who takes no opportunities given for granted, I am always ready to give 110% and take on any challenge 
+                        <p class="col-xl-8 col-lg-12 fs-5 mb-2 contact-texts col-md-10 col-sm-12"> I am a second-year Business and Computer Science
+                            Major at
+                            the
+                            University of British Columbia with a driving determination, and an eager passion for
+                            learning and curiosity.
+                            As someone who takes no opportunities given for granted, I am always ready to give 110% and
+                            take on any challenge
                             presented! Here are some of my hobbies that you can find me doing in my free time:
                         </p>
                     </div>
@@ -105,7 +110,8 @@
                             </svg>
                         </div>
                         <h3 class="fs-2">Coding!</h3>
-                        <p> Always looking to learn and improve, I love to watch youtube tutorials and find Udemy courses to 
+                        <p> Always looking to learn and improve, I love to watch youtube tutorials and find Udemy
+                            courses to
                             improve on my skills in my free time!
                         </p>
                         <a href="#" class="icon-link">
@@ -126,7 +132,8 @@
                             </svg>
                         </div>
                         <h3 class="fs-2">Music</h3>
-                        <p> From a young age, music has been a huge part of my life. I've taught myself how to play piano and guitar, and 
+                        <p> From a young age, music has been a huge part of my life. I've taught myself how to play
+                            piano and guitar, and
                             like to write songs in my free time!
                         </p>
                         <a href="#" class="icon-link">
@@ -145,7 +152,8 @@
                             </svg>
                         </div>
                         <h3 class="fs-2">Sports</h3>
-                        <p> Team sports has taught me the importance of communication and how to work with others. I played soccer
+                        <p> Team sports has taught me the importance of communication and how to work with others. I
+                            played soccer
                             and badminton, and am interested in spikeball, volleyball, and basketball as well! </p>
                         <a class="icon-link">
                             <svg id="portfolio-link" class="bi">
@@ -161,37 +169,40 @@
         <div class="container px-4">
             <h2 class="about-title pb-2 border-bottom"> 02 Portfolio </h2>
         </div>
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
-                <div class="col ps-5 py-5">
+        <div class="container-portfolio container">
+            <div class="row row-holder row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+                <div class="col col-p ps-5 py-5">
                     <div class="card shadow-sm">
                         <img src="./Rizzify.png" alt="hackathon-image" width="100%" height="225">
                         <div class="card-body">
                             <p class="card-text">1st place at the BUCS Hackathon with the Project "Rizzify". Generates
                                 custom pickup lines for the user. Created using HTML, CSS, Bootstrap, ChatGPT API, and
-                                Speech Synthesis API.</p>
+                                Speech Synthesis API.
+                            </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <a href="https://github.com/mikuro39/bucs-hackathon">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit Repo</button>
-                                </a>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary connect">Visit
+                                            Repo</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col ps-5 py-5">
+                <div class="col col-p ps-5 py-5">
                     <div class="card shadow-sm">
                         <img src="./MetroHacks.png" alt="hackathon-image" width="100%" height="225">
                         <div class="card-body">
-                            <p class="card-text">MetroHacks 2022 submission "Text-Blast". Unfinished, but still a
+                            <p class="card-text"> MetroHacks 2022 submission "Text-Blast". Unfinished, but still a
                                 learning experience, one that I hope to revisit as a reminder of my progress. Worked
                                 with Svelte, Twilio API, and CSS.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <a href="https://github.com/lourw/textblast">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit Repo</button>
-                                </a>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary connect">Visit
+                                            Repo</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -277,19 +288,19 @@
                             </svg>
                         </a>
                         <!-- Github -->
-                        <a class="icons" href="https://github.com/m20arcusk">
-                            <?xml version="1.0" ?><svg height="50%" viewBox="0 0 72 72" width="50%"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g fill="none" fill-rule="evenodd">
-                                    <path
-                                        d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
-                                        fill="#3E75C3" />
-                                    <path
-                                        d="M35.9985,12 C22.746,12 12,22.7870921 12,36.096644 C12,46.7406712 18.876,55.7718301 28.4145,58.9584121 C29.6145,59.1797862 30.0525,58.4358488 30.0525,57.7973276 C30.0525,57.2250681 30.0315,55.7100863 30.0195,53.6996482 C23.343,55.1558981 21.9345,50.4693938 21.9345,50.4693938 C20.844,47.6864054 19.2705,46.9454799 19.2705,46.9454799 C17.091,45.4500754 19.4355,45.4801943 19.4355,45.4801943 C21.843,45.6503662 23.1105,47.9634994 23.1105,47.9634994 C25.2525,51.6455377 28.728,50.5823398 30.096,49.9649018 C30.3135,48.4077535 30.9345,47.3460615 31.62,46.7436831 C26.2905,46.1352808 20.688,44.0691228 20.688,34.8361671 C20.688,32.2052792 21.6225,30.0547881 23.1585,28.3696344 C22.911,27.7597262 22.0875,25.3110578 23.3925,21.9934585 C23.3925,21.9934585 25.4085,21.3459017 29.9925,24.4632101 C31.908,23.9285993 33.96,23.6620468 36.0015,23.6515052 C38.04,23.6620468 40.0935,23.9285993 42.0105,24.4632101 C46.5915,21.3459017 48.603,21.9934585 48.603,21.9934585 C49.9125,25.3110578 49.089,27.7597262 48.8415,28.3696344 C50.3805,30.0547881 51.309,32.2052792 51.309,34.8361671 C51.309,44.0917119 45.6975,46.1292571 40.3515,46.7256117 C41.2125,47.4695491 41.9805,48.9393525 41.9805,51.1877301 C41.9805,54.4089489 41.9505,57.0067059 41.9505,57.7973276 C41.9505,58.4418726 42.3825,59.1918338 43.6005,58.9554002 C53.13,55.7627944 60,46.7376593 60,36.096644 C60,22.7870921 49.254,12 35.9985,12"
-                                        fill="#FFF" />
-                                </g>
-                            </svg>
-                        </a>
+                            <a class="icons" href="https://github.com/m20arcusk">
+                                <?xml version="1.0" ?><svg height="50%" viewBox="0 0 72 72" width="50%"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
+                                            fill="#3E75C3" />
+                                        <path
+                                            d="M35.9985,12 C22.746,12 12,22.7870921 12,36.096644 C12,46.7406712 18.876,55.7718301 28.4145,58.9584121 C29.6145,59.1797862 30.0525,58.4358488 30.0525,57.7973276 C30.0525,57.2250681 30.0315,55.7100863 30.0195,53.6996482 C23.343,55.1558981 21.9345,50.4693938 21.9345,50.4693938 C20.844,47.6864054 19.2705,46.9454799 19.2705,46.9454799 C17.091,45.4500754 19.4355,45.4801943 19.4355,45.4801943 C21.843,45.6503662 23.1105,47.9634994 23.1105,47.9634994 C25.2525,51.6455377 28.728,50.5823398 30.096,49.9649018 C30.3135,48.4077535 30.9345,47.3460615 31.62,46.7436831 C26.2905,46.1352808 20.688,44.0691228 20.688,34.8361671 C20.688,32.2052792 21.6225,30.0547881 23.1585,28.3696344 C22.911,27.7597262 22.0875,25.3110578 23.3925,21.9934585 C23.3925,21.9934585 25.4085,21.3459017 29.9925,24.4632101 C31.908,23.9285993 33.96,23.6620468 36.0015,23.6515052 C38.04,23.6620468 40.0935,23.9285993 42.0105,24.4632101 C46.5915,21.3459017 48.603,21.9934585 48.603,21.9934585 C49.9125,25.3110578 49.089,27.7597262 48.8415,28.3696344 C50.3805,30.0547881 51.309,32.2052792 51.309,34.8361671 C51.309,44.0917119 45.6975,46.1292571 40.3515,46.7256117 C41.2125,47.4695491 41.9805,48.9393525 41.9805,51.1877301 C41.9805,54.4089489 41.9505,57.0067059 41.9505,57.7973276 C41.9505,58.4418726 42.3825,59.1918338 43.6005,58.9554002 C53.13,55.7627944 60,46.7376593 60,36.096644 C60,22.7870921 49.254,12 35.9985,12"
+                                            fill="#FFF" />
+                                    </g>
+                                </svg>
+                            </a>
                         <!-- Instagram -->
                         <a class="icons" href="https://www.instagram.com/m20.arcusk/">
                             <?xml version="1.0" ?><svg id="Instagram" viewBox="0 0 512 512"
