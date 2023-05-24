@@ -236,8 +236,11 @@ body{
 
 @media (max-width: 800px){
   .col-p{
-    width: 90%;
+    width: 100%;
   }
+.container-profile {
+  margin-left: 15px;
+}
 }
 
   
