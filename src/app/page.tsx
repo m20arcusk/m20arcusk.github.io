@@ -20,7 +20,7 @@ export default function Home() {
     >
 
       <motion.div
-        className="items-center justify-items-center min-h-screen pb-10 font-raleway font-domine font-montserrat font-outfit">
+        className="items-center justify-items-center min-h-screen pb-10 font-raleway font-domine font-montserrat font-outfit pb-5">
         <Header />
         <ScrollDownButton targetId="experiences" label="↓ next" sectionId="experiences" className="top-[90%]" />
         <div className="pl-0 sm:pl-[10%]">
