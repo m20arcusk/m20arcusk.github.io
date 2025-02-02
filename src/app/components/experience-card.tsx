@@ -67,7 +67,7 @@ export default function ExperienceCard(props: ExperienceProps) {
 
                 {/* Description List */}
                 <motion.ul
-                    className="text-sm sm:text-xl font-light font-outfit list-disc mt-4 text-left self-start pl-6 ml-10"
+                    className="text-sm sm:text-lg font-light font-outfit list-disc mt-4 text-left self-start pl-6 ml-10"
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? "auto" : 0 }}
                     transition={{ duration: 0.3 }}
