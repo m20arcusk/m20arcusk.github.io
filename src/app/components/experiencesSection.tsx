@@ -49,7 +49,7 @@ export default function Experiences() {
                     ]}
                 />
             </div>
-            <ScrollDownButton targetId="projects" label="↓ next" sectionId="projects" className="top-[190%] hidden sm:block" />
+            <ScrollDownButton targetId="projects" label="↓ next" sectionId="projects" className="mt-auto mb-10 hidden sm:block" />
         </section>
     );
 }
