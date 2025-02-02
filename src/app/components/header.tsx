@@ -71,19 +71,15 @@ export default function Header() {
                 </motion.div>
             </div>
             <motion.div
-                className="absolute top-0 left-[37%] sm:left-[45%] cursor-pointer"
-                initial={{ y: -200 }}
+                className="absolute top-0 left-[37%] sm:left-[45%] text-[7rem] cursor-pointer"
+                initial={{ y: -200, rotate: 180 }}
                 animate={{ y: isHover ? -65 : -200, rotate: 180 }}
                 transition={{ duration: 0.5, ease: 'easeInOut' }}
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}
                 onClick={handleEmojiClick}
             >
-                <motion.div
-                    initial={{ rotate: 180 }}
-                    className='text-[7rem]'>
-                    👦🏻
-                </motion.div>
+                👦🏻
             </motion.div>
         </section>
     );
