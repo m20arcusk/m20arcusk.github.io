@@ -42,7 +42,9 @@ export default function ExperienceCard(props: ExperienceProps) {
                         {props.role} <span className="text-light-blue font-montserrat">@</span> {props.company} {props.date}
                         {/* Toggle Arrow */}
                         <div className="flex items-center">
-                            <span className="text-light-blue text-sm font-montserrat"> see more</span>
+                            <span 
+                            onClick={handleToggle}
+                            className="text-light-blue text-sm font-montserrat"> see more</span>
                             <motion.svg
                                 className="w-6 h-6"
                                 animate={{ rotate: isOpen ? 360 : 270 }}
