@@ -40,7 +40,7 @@ export default function Projects() {
                     description={["https://devpost.com/software/bucshackathon",]}
                 />
             </div>
-            <ScrollDownButton targetId="top" label="return" sectionId="top" className="top-[290%]" />
+            <ScrollDownButton targetId="top" label="return" sectionId="top" className="mt-10" />
         </section>
     );
 }

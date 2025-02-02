@@ -45,7 +45,7 @@ export default function Header() {
                             Marcus Kam
                         </h2>
                     </motion.div>
-                    <p className="text-lg sm:text-3xl font-light font-raleway font-domine font-montserrat font-outfit">
+                    <p className="text-lg sm:text-3xl text-center font-light font-raleway font-domine font-montserrat font-outfit">
                         a <span className="text-light-blue font-raleway font-domine font-montserrat font-outfit italic">software engineer</span> and third-year student at ubc.
                     </p>
                     <button
