@@ -3,7 +3,7 @@ import ScrollDownButton from "./scrollButton";
 
 export default function Projects() {
     return (
-        <section id="projects" className="min-h-screen py-[100px]">
+        <section id="projects" className="min-h-screen items-center py-[50px]">
             <div className="flex items-center my-8">
                 <span className="mx-4 text-4xl italic text-beige"> - Projects - </span>
             </div>

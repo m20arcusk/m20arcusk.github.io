@@ -11,7 +11,7 @@ export default function Header() {
             if (window.innerWidth < 640) { // 'sm' breakpoint in Tailwind (640px)
                 setHoverScale(1.0);
             } else {
-                setHoverScale(1.3);
+                setHoverScale(1.0);
             }
         };
 
@@ -58,9 +58,9 @@ export default function Header() {
                 </motion.div>
             </div>
             <motion.div
-                className="absolute top-0 left-[37%] sm:left-[45%] text-[8rem]"
+                className="absolute top-0 left-[37%] sm:left-[45%] text-[7rem]"
                 initial={{ y: -200, rotate: 180 }} // Starts rotated upside down
-                animate={{ y: isHover ? -75 : -200, rotate: 180 }} // Moves down while staying rotated
+                animate={{ y: isHover ? -65 : -200, rotate: 180 }} // Moves down while staying rotated
                 transition={{ duration: 0.5, ease: "easeInOut" }} // Slower animation
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}

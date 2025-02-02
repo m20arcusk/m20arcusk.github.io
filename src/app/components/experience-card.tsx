@@ -19,7 +19,7 @@ export default function ExperienceCard(props: ExperienceProps) {
     };
 
     return (
-        <header className="flex flex-col items-center justify-center my-5 text-beige italic mx-10 sm:mx-5 px-3">
+        <header className="flex flex-col items-center justify-center my-2 text-beige italic mx-5 sm:mx-5 pl-3">
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -36,9 +36,9 @@ export default function ExperienceCard(props: ExperienceProps) {
                         alt="company-logo"
                         width={80}
                         height={80}
-                        className="rounded-full w-12 h-12 sm:w-20 sm:h-20 border border-white border-2"
+                        className="rounded-full w-12 h-12 sm:w-18 sm:h-18 border border-white border-2"
                     />
-                    <div className="text-lg sm:text-3xl font-light mb-2 font-montserrat ml-4">
+                    <div className="text-lg sm:text-2xl font-light mb-2 font-montserrat ml-4">
                         {props.role} <span className="text-light-blue font-montserrat">@</span> {props.company} {props.date}
                         {/* Toggle Arrow */}
                         <div className="flex items-center">

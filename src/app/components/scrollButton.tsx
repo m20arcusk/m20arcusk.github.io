@@ -39,7 +39,7 @@ export default function ScrollDownButton({ targetId, label, sectionId, className
     return (
         <motion.button
             onClick={scrollToSection}
-            className={`absolute transform hidden sm:block left-[43%] sm:left-[47%] translate-x-1/2 bg-light-blue text-gray px-4 py-2 rounded-full shadow-lg ${className}`}
+            className={`absolute transform left-[43%] sm:left-[47%] translate-x-1/2 bg-light-blue text-gray px-4 py-2 rounded-full shadow-lg ${className}`}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: visible ? 1 : 0, y: visible ? 10 : 20 }}
             transition={{ duration: 0.3 }}

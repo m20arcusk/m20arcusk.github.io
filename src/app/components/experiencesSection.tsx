@@ -3,10 +3,10 @@ import ScrollDownButton from "./scrollButton";
 
 export default function Experiences() {
     return (
-        <section id="experiences" className="min-h-screen py-[100px] sm:pb-8">
+        <section id="experiences" className="min-h-screen py-[50px] items-center sm:pb-8">
 
             <div className="flex items-center my-8">
-                <span className="mx-4 text-4xl italic text-beige"> - Experiences - </span>
+                <span className="ml-4 text-4xl italic text-beige"> - Experiences - </span>
             </div>
             <div className="flex flex-col items-start gap-4">
                 <ExperienceCard
